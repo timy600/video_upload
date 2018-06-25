@@ -48,3 +48,10 @@ python manage.py runserver
 ```
 
 If no Frontend app has been designed, Postman can be used to test the routes, the main one being a post request with a name and a file (video).
+
+## Libraries and Modules
+
+**Django Rest Framework** : serialization, to manage urls with classes instead of functions
+**Pafy** : to download videos from youtube
+**Moviepy** : to add the watermark and to store the file with a specified size
+**Uuid** : to generate keys
